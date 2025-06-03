@@ -1,49 +1,90 @@
 ---
 permalink: /
-title: "Academic Pages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: "Welcome"
 author_profile: true
-redirect_from: 
+redirect_from:
   - /about/
   - /about.html
 ---
 
-This is the front page of a website that is powered by the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the repository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this template](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads!
+I am a Ph.D. student in Computer Science at the University of Texas at El Paso (UTEP), previously at Southern Illinois University Carbondale (SIUC). My research focuses on AI/ML applications in social network security, privacy, and natural language processing (NLP). I am particularly interested in leveraging deep learning and large language models (LLMs) to understand and address challenges in digital identity, content moderation, and behavioral analysis on social platforms.
 
-A data-driven personal website
-======
-Like many other Jekyll-based GitHub Pages templates, Academic Pages makes you separate the website's content from its form. The content & metadata of your website are in structured markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.
+Before starting my Ph.D., I worked for over eight years as a software engineer at companies such as BRAC IT, REVE Systems, and AES, where I contributed to ERP systems, NLP pipelines, and customer engagement platforms. My practical experience includes full-stack software development, chatbot architecture, system integration, and scalable AI solution deployment.
 
-Many of the features of dynamic content management systems (like Wordpress) can be achieved in this fashion, using a fraction of the computational resources and with far less vulnerability to hacking and DDoSing. You can also modify the theme to your heart's content without touching the content of your site. If you get to a point where you've broken something in Jekyll/HTML/CSS beyond repair, your markdown files describing your talks, publications, etc. are safe. You can rollback the changes or even delete the repository and start over - just be sure to save the markdown files! Finally, you can also write scripts that process the structured data on the site, such as [this one](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb) that analyzes metadata in pages about talks to display [a map of every location you've given a talk](https://academicpages.github.io/talkmap.html).
+I completed my Bachelor of Science in Computer Science and Engineering from BUET, which provided me with strong theoretical and technical foundations. My research has resulted in multiple peer-reviewed publications at conferences like ASONAM and COMPSAC. I was also a finalist in the 2023 U.S. Dept. of Energy CyberForce Competition and a recipient of the National Project Champion Award in Bangladesh.
 
-Getting started
-======
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Fork [this template](https://github.com/academicpages/academicpages.github.io) by clicking the "Use this template" button in the top right. 
-1. Go to the repository's settings (rightmost item in the tabs that start with "Code", should be below "Unwatch"). Rename the repository "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and create content & metadata (see below -- also see [this set of diffs](http://archive.is/3TPas) showing what files were changed to set up [an example site](https://getorg-testacct.github.io) for a user with the username "getorg-testacct")
-1. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
-1. Check status by going to the repository settings, in the "GitHub pages" section
+You can find more about my academic contributions on [Google Scholar](https://scholar.google.com/citations?user=v7hMP8kAAAAJ&hl=en), professional updates on [LinkedIn](https://www.linkedin.com/in/jahangircsebuet/), and explore my project portfolio here on GitHub or on my [personal site](https://jahangircsebuet.github.io/).
 
-Site-wide configuration
-------
-The main configuration file for the site is in the base directory in [_config.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_config.yml), which defines the content in the sidebars and other site-wide features. You will need to replace the default variables with ones about yourself and your site's github repository. The configuration file for the top menu is in [_data/navigation.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_data/navigation.yml). For example, if you don't have a portfolio or blog posts, you can remove those items from that navigation.yml file to remove them from the header. 
+For more about my hobbies and side projects, check the *More about Me* section.
 
-Create content & metadata
-------
-For site content, there is one markdown file for each type of content, which are stored in directories like _publications, _talks, _posts, _teaching, or _pages. For example, each talk is a markdown file in the [_talks directory](https://github.com/academicpages/academicpages.github.io/tree/master/_talks). At the top of each markdown file is structured data in YAML about the talk, which the theme will parse to do lots of cool stuff. The same structured data about a talk is used to generate the list of talks on the [Talks page](https://academicpages.github.io/talks), each [individual page](https://academicpages.github.io/talks/2012-03-01-talk-1) for specific talks, the talks section for the [CV page](https://academicpages.github.io/cv), and the [map of places you've given a talk](https://academicpages.github.io/talkmap.html) (if you run this [python file](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.py) or [Jupyter notebook](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb), which creates the HTML for the map based on the contents of the _talks directory).
+[👤 Show more](about.html){: .btn .btn--light}
 
-**Markdown generator**
+## Research Interests
 
-The repository includes [a set of Jupyter notebooks](https://github.com/academicpages/academicpages.github.io/tree/master/markdown_generator
-) that converts a CSV containing structured data about talks or presentations into individual markdown files that will be properly formatted for the Academic Pages template. The sample CSVs in that directory are the ones I used to create my own personal website at stuartgeiger.com. My usual workflow is that I keep a spreadsheet of my publications and talks, then run the code in these notebooks to generate the markdown files, then commit and push them to the GitHub repository.
+I am broadly interested in the intersection of machine learning, natural language processing (NLP), and social network security. My current research focuses on leveraging large language models (LLMs) and deep learning techniques to tackle privacy risks, identity deception, and content manipulation in online social platforms.
 
-How to edit your site's GitHub repository
-------
-Many people use a git client to create files on their local computer and then push them to GitHub's servers. If you are not familiar with git, you can directly edit these configuration and markdown files directly in the github.com interface. Navigate to a file (like [this one](https://github.com/academicpages/academicpages.github.io/blob/master/_talks/2012-03-01-talk-1.md) and click the pencil icon in the top right of the content preview (to the right of the "Raw | Blame | History" buttons). You can delete a file by clicking the trashcan icon to the right of the pencil icon. You can also create new files or upload files by navigating to a directory and clicking the "Create new file" or "Upload files" buttons. 
+Specific areas of interest include:
 
-Example: editing a markdown file for a talk
-![Editing a markdown file for a talk](/images/editing-talk.png)
+- Social Network Security and Privacy
+- Explainable Machine Learning and Concept Drift
+- Natural Language Processing and Large Language Models (e.g., BERT, RoBERTa, GPT)
+- Adversarial Behavior and Content Moderation
+- Real-world Applications of AI in ERP Systems and User Behavior Modeling
 
-For more info
-------
-More info about configuring Academic Pages can be found in [the guide](https://academicpages.github.io/markdown/), the [growing wiki](https://github.com/academicpages/academicpages.github.io/wiki), and you can always [ask a question on GitHub](https://github.com/academicpages/academicpages.github.io/discussions). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
+My recent work involves designing intelligent frameworks for combating identity attacks, mitigating echo chambers, and detecting gender bias in regional language content on social networks.
+
+For my publications and other academic contributions, please refer to my [CV](files/CV.pdf) or [Google Scholar profile](https://scholar.google.com/citations?user=v7hMP8kAAAAJ&hl=en).
+
+[🔬 Show more](research.html){: .btn .btn--success} 
+
+
+## News
+
+[May 2024] Our paper *“SocialGuard: Bangla Text-Based Gender Identification for Enhancing Integrity in Social Networks”* was accepted to appear at **COMPSAC 2024**!
+
+[Apr 2024] Our work *“Combating Echo Chambers in Online Social Network by Increasing Content Diversity in Recommendation”* was accepted to **ASONAM 2024**!
+
+[Nov 2023] Participated in the **U.S. Dept. of Energy CyberForce Competition 2023**, where our team ranked **56th among 120+ teams** across the USA.
+
+[Aug 2023] Presented our paper *“Combating Identity Attacks in Online Social Networks: A Multi-Layered Framework Using Zero-Knowledge Proof and Private Blockchains”* at **ASONAM 2023**.
+
+[Sept 2022] Joined **BRAC IT** as a Senior Software Engineer, enhancing enterprise-level ERP systems.
+
+[May 2022] Successfully completed development of core modules for the AES ERP system (similar to SAP/Oracle), deployed across five industrial concerns.
+
+[2013] Received the **Champion Award ($1000)** at the **National Project Contest** organized by BSCCL, Dhaka, Bangladesh.
+
+[📰 Show more](news.html){: .btn .btn--info}  
+
+
+## Recent Publications [📄 Google Scholar](https://scholar.google.com/citations?user=v7hMP8kAAAAJ&hl=en)
+
+<div class="pub-list">
+
+<div class="pub-item">
+  <div class="pub-venue"><span class="label">ASONAM '24</span></div>
+  <div class="pub-title"><strong>Combating Echo Chambers in Online Social Network By Increasing Content Diversity In Recommendation</strong></div>
+  <div class="pub-authors">Md Jahangir Alam</div>
+  <div class="pub-venue"><em>ASONAM 2024.</em></div>
+  <a class="btn btn--primary" href="/files/echo-chamber-asonam24.pdf">PDF</a>
+</div>
+
+<div class="pub-item">
+  <div class="pub-venue"><span class="label">COMPSAC '24</span></div>
+  <div class="pub-title"><strong>SocialGuard: Bangla Text-Based Gender Identification for Enhancing Integrity in Social Networks</strong></div>
+  <div class="pub-authors">Md Jahangir Alam</div>
+  <div class="pub-venue"><em>COMPSAC 2024.</em></div>
+  <a class="btn btn--primary" href="/files/socialguard-compsac24.pdf">PDF</a>
+</div>
+
+<div class="pub-item">
+  <div class="pub-venue"><span class="label">ASONAM '23</span></div>
+  <div class="pub-title"><strong>Combating Identity Attacks in Online Social Networks: A Multi-Layered Framework Using Zero-Knowledge Proof and Private Blockchains</strong></div>
+  <div class="pub-authors">Md Jahangir Alam</div>
+  <div class="pub-venue"><em>ASONAM 2023.</em></div>
+  <a class="btn btn--primary" href="/files/identity-attack-asonam23.pdf">PDF</a>
+</div>
+
+</div>
+
+[📚 Show more](publications.html){: .btn .btn--primary}  
