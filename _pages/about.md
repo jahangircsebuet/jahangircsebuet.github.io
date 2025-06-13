@@ -61,6 +61,30 @@ For my publications and other academic contributions, please refer to my [CV](fi
 
 <div class="pub-list">
 
+
+
+<div class="pub-item">
+  <div class="pub-venue"><span class="label">NPIC/HMIT '25</span></div>
+  <div class="pub-title"><strong>Securing SDN-Based Advanced Reactors Against DDoS Attacks Using Quantum-Inspired Ensemble Models
+</strong></div>
+  <div class="pub-authors">Md Jahangir Alam, Ismail Hossain, Sai Puppala, Samrendra Roy, Kazuma Kobayashi, Syed Bahauddin Alam, Sajedul Talukder</div>
+  <div class="pub-venue"><em>Affiliations: [National Center for Supercomputing Applications, Urbana, Illinois][The Grainger College of Engineering, Nuclear, Plasma & Radiological Engineering, University of Illinois Urbana-Champaign, Urbana, Illinois][Southern Illinois University Carbondale, Illinois][The University of Texas at El Paso,
+El Paso, Texas]</em></div>
+  <a class="btn btn--primary" href="/files/echo-chamber-asonam24.pdf">PDF</a>
+</div>
+
+<div class="pub-item">
+  <div class="pub-venue"><span class="label">NPIC/HMIT '25</span></div>
+  <div class="pub-title"><strong>A Privacy-Aware Cyber Attack Detection Framework for Advanced Reactors Using Data Fusion and Quantum Deep Learning
+</strong></div>
+  <div class="pub-authors">Md Jahangir Alam, Ismail Hossain, Sai Puppala, Samrendra Roy, Kazuma Kobayashi, Syed Bahauddin Alam, Sajedul Talukder</div>
+  <div class="pub-venue"><em>Affiliations: [National Center for Supercomputing Applications, Urbana, Illinois][The Grainger College of Engineering, Nuclear, Plasma & Radiological Engineering, University of Illinois Urbana-Champaign, Urbana, Illinois][Southern Illinois University Carbondale, Illinois][The University of Texas at El Paso,
+El Paso, Texas]</em></div>
+  <a class="btn btn--primary" href="/files/echo-chamber-asonam24.pdf">PDF</a>
+</div>
+
+
+
 <div class="pub-item">
   <div class="pub-venue"><span class="label">ASONAM '24</span></div>
   <div class="pub-title"><strong>Combating Echo Chambers in Online Social Network By Increasing Content Diversity In Recommendation</strong></div>
