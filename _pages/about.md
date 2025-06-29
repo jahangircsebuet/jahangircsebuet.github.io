@@ -38,7 +38,11 @@ For my publications and other academic contributions, please refer to my [CV](fi
 [🔬 Show more](research.html){: .btn .btn--success} 
 
 
-## News
+## News 
+
+[June 2025] Our paper *“Comprehensive Privacy Risk Assessment in Social Networks Using User Attributes Social Graphs and Text Analysis”* has been accepted to appear at **HyperText 2025**!
+
+[June 2025] 6 papers have been accepted to appear at **NPIC&HMIT 2025**!
 
 [May 2024] Our paper *“SocialGuard: Bangla Text-Based Gender Identification for Enhancing Integrity in Social Networks”* was accepted to appear at **COMPSAC 2024**!
 
