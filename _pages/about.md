@@ -40,7 +40,7 @@ For my publications and other academic contributions, please refer to my [CV](fi
 
 ## News 
 
-[Sept 2025] Served as the session chair at **Session 7: TWEB & Blue Sky@HyperText 2025** [Link] (https://ht.acm.org/ht2025/program-overview/).
+[Sept 2025] Served as the session chair at **Session 7: TWEB & Blue Sky@HyperText 2025** [Link](https://ht.acm.org/ht2025/program-overview/).
 
 [Sept 2025] Presented the paper *“Comprehensive Privacy Risk Assessment in Social Networks Using User Attributes Social Graphs and Text Analysis”* **HyperText 2025**!
 
