@@ -1,0 +1,30 @@
+---
+layout: default
+---
+
+{% include base_path %}
+
+<main id="main" class="home" role="main" itemscope itemtype="http://schema.org/Person">
+  <header class="home-intro">
+    <div class="home-intro__text">
+      <h1 class="home-intro__name" itemprop="name">{{ site.author.name }}</h1>
+      <p class="home-intro__tagline">{{ page.tagline | default: site.author.bio }}</p>
+      <p class="home-intro__links">
+        {% assign sep = '<span> / </span>' %}
+        {% if site.author.email %}<a href="mailto:{{ site.author.email }}">Email</a>{{ sep }}{% endif %}
+        {% if page.cv %}<a href="{{ base_path }}{{ page.cv }}">CV</a>{{ sep }}{% endif %}
+        {% if site.author.googlescholar %}<a href="{{ site.author.googlescholar }}">Google&nbsp;Scholar</a>{{ sep }}{% endif %}
+        {% if site.author.orcid %}<a href="{{ site.author.orcid }}">ORCID</a>{{ sep }}{% endif %}
+        {% if site.author.github %}<a href="https://github.com/{{ site.author.github }}">GitHub</a>{{ sep }}{% endif %}
+        {% if site.author.linkedin %}<a href="https://www.linkedin.com/in/{{ site.author.linkedin }}">LinkedIn</a>{% endif %}
+      </p>
+    </div>
+    <div class="home-intro__photo">
+      <img src="{{ base_path }}/images/{{ site.author.avatar }}" alt="Portrait of {{ site.author.name }}" itemprop="image">
+    </div>
+  </header>
+
+  <div class="home-content page__content" itemprop="description">
+    {{ content }}
+  </div>
+</main>

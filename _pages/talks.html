@@ -1,16 +1,21 @@
 ---
 layout: archive
-title: "Talks and presentations"
+title: "Talks and Service"
 permalink: /talks/
 author_profile: true
 ---
 
-{% if site.talkmap_link == true %}
+{% include base_path %}
 
-<p style="text-decoration:underline;"><a href="/talkmap.html">See a map of all the places I've given a talk!</a></p>
+<p>Conference presentations and program service. <em>Placeholder — this list is incomplete and will be updated.</em></p>
 
-{% endif %}
-
-{% for post in site.talks reversed %}
-  {% include archive-single-talk.html %}
+<div class="pub-list">
+{% assign talks = site.talks | sort: 'date' | reverse %}
+{% for talk in talks %}
+  <div class="pub">
+    <a class="pub__title" href="{{ base_path }}{{ talk.url }}">{{ talk.title }}</a>
+    <p class="pub__excerpt">{{ talk.excerpt | markdownify | strip_html | strip_newlines }}</p>
+    <p class="pub__meta"><span class="pub__venue">{{ talk.type }}, {{ talk.venue }}</span> &middot; {{ talk.date | date: "%B %Y" }}{% if talk.location %} &middot; {{ talk.location }}{% endif %}</p>
+  </div>
 {% endfor %}
+</div>

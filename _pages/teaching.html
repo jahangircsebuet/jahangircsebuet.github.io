@@ -7,6 +7,13 @@ author_profile: true
 
 {% include base_path %}
 
-{% for post in site.teaching reversed %}
-  {% include archive-single.html %}
+<div class="pub-list">
+{% assign items = site.teaching | sort: 'date' | reverse %}
+{% for item in items %}
+  <div class="pub">
+    <a class="pub__title" href="{{ base_path }}{{ item.url }}">{{ item.title }}</a>
+    <p class="pub__excerpt">{{ item.excerpt | markdownify | strip_html | strip_newlines }}</p>
+    <p class="pub__meta"><span class="pub__venue">{{ item.type }}, {{ item.venue }}</span> &middot; {{ item.date | date: "%Y" }}</p>
+  </div>
 {% endfor %}
+</div>
